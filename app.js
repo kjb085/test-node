@@ -4,7 +4,7 @@ let express = require('express'),
     app = express();
 
 app.get('/', function(req, res){
-    res.send('Hello World!');
+    res.send("<img src='http://stream1.gifsoup.com/view7/2903079/flipping-off-o.gif'/>");
 });
 
 app.listen(3000, function(){
